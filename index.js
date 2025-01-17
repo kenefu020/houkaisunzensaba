@@ -7,4 +7,4 @@ console.log(list[r2])
 
 //htmlタグ内に表示させるやつ
 let fin = document.getElementById('fin')
-fin.innerText = list[r2]
+fin.innerText = '今日の運勢は、'+list[r2]
