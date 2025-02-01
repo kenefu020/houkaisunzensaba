@@ -2,31 +2,23 @@
 <html lang="ja">
 
 <head>
-    <meta name="google-site-verification" content="ExD6wP-k02GpqC1Z8zyzD8JOBJvW_BfegfeToiaxDFI" />
+  <meta name="google-site-verification" content="ExD6wP-k02GpqC1Z8zyzD8JOBJvW_BfegfeToiaxDFI" />
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>崩壊寸前鯖 Event</title>
+  <title>崩壊寸前鯖 TOP</title>
   <link rel="shortcut icon" href="../画像/IMG_500.jpeg">
   <link rel="stylesheet" href="../js&css/style.css">
 </head>
 <style>
-main{height: 900px;}
-
+  main{height: 900px;}
   .main {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
-.sp{height: 100px;
-color: #000;}
-
-.a{margin-bottom: 2px;}
-
-.box{border: solid 1px darkblue;
-padding: 1em;
-margin-top: 2px;
-margin-bottom: 2px;}
+.reload{
+	cursor: pointer;
+}
 </style>
 <body>
   <div class="container">
@@ -57,9 +49,16 @@ margin-bottom: 2px;}
     </header>
     <main>
       <div class="main">
-        <div class="sp"></div>
-      <h1>こちらでは、運営が計画したイベントが表示されます。</h1>
-      <center><h1>現在調整中です。</h1></center>
+        <h1>本バージョンは、作成中です。</h1>
+        <h1>ようこそ
+          <br>崩壊寸前鯖公式サイトへ!
+        </h1>
+          <h1 id="fin"></h1>
+          <button>
+          <a onclick="window.location.reload(true);" class="reload">
+            引き直す
+          </a></button>
+          
       </div>
     </main>
     <footer class="footer">
@@ -71,6 +70,7 @@ margin-bottom: 2px;}
     </footer>
   </div>
   <script src="../js&css/main.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
