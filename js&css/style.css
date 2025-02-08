@@ -59,6 +59,7 @@ main {
 /* ヘッダーのロゴ部分 */
 .header__title {
   width: 80px;
+  height: 80px;
 }
 
 
