@@ -208,3 +208,17 @@ main {
   top: -13px;
   transform: rotate(-45deg);
 }
+
+html {
+  font-size: 75%;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}
